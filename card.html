@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartinha pra ti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./card.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <img src="./img/envelope.jpeg" alt="Foto de envelope">
+        <form id="date-form">
+            <label for="date-input">Insira a data:</label>
+            <input type="date" id="date-input" required>
+            <button type="submit">Ver</button>
+        </form>
+        <div class="error-message hidden" id="error-message">Esqueceste?</div>
+    </div>
+
+    <div id="content" class="hidden">
+        <div class="icons">
+            <img src="./img/rose.jpeg" alt="Foto de envelope"><br>
+        </div>
+        <h1>Bae...😊😘</h1>
+        <p>Às vezes fico a olhar pra ti sem dizer nada, porque eu simplesmente  não sei como descrever o quão boa é a sensação de estar do seu lado❤.</p>
+    </div>
+</body>
+
+<script src="./card.js"></script>
+</html>
